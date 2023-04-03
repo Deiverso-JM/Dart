@@ -5,24 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_1",
-            "cwd": "flutter_1",
-            "request": "launch",
-            "type": "dart"
-        },
-        {
-            "name": "flutter_1 (profile mode)",
-            "cwd": "flutter_1",
+            "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
-        },
-        {
-            "name": "flutter_1 (release mode)",
-            "cwd": "flutter_1",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release"
+            "program": "Dart inicios/Estructs/Loops.dart",
         }
     ]
 }
