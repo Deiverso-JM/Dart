@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "Dart inicios/Estructs/Loops.dart",
+            "program": "Dart_inicios",
         }
     ]
 }
