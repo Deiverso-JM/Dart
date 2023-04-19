@@ -2,7 +2,8 @@
 
 void main() {
   String ocupado =
-      'Hola mundo, hoy es martes, mañana es. nochebuena, pasado Mañana es navidad. hola mundo Nochebuena eS! el mejor día';
+      ('Hola mundo, hoy es martes, mañana es. nochebuena,pasado Mañana es navidad. 
+      hola mundo Nochebuena eS! el mejor día');
   print(wordsCounter(ocupado, 'es.!'));
 }
 
@@ -18,6 +19,7 @@ String wordsCounter(String text, String queri) {
       counterMap[word] = 1;
     }
   }
+  print(counterMap);
 
   queri = normalize(queri);
 
